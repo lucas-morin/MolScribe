@@ -1,4 +1,4 @@
-This fork contains a small fix of `MolScribe/molscribe/augment.py` to make it compliant with albumentations 1.4.2: 
+This fork contains a small fix of `MolScribe/molscribe/augment.py` to make it compliant with albumentations 1.4.2. Changes: 
 - Comment the lines 2-3 in `augment.py` (`from albumentations.augmentations.geometric.functional import safe_rotate_enlarged_img_size, _maybe_process_in_chunks, keypoint_rotate`)
 - Replace in the line 274 `A.augmentations.transforms.GridDistortion` with `A.GridDistortion`
 
